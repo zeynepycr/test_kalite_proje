@@ -1,0 +1,81 @@
+YAZILIM GEREKSİNİM SPESİFİKASYONU
+
+1. GENEL BİLGİLER
+1.1. Proje Adı: Online Kullanıcı Yönetim Sistemi
+1.2. Versiyon: 1.0
+1.3. Tarih: 2024
+
+2. FONKSİYONEL GEREKSİNİMLER
+
+2.1. Kullanıcı Kayıt İşlemi
+- Sistem, yeni kullanıcıların kayıt olmasına izin vermelidir
+- Kayıt işlemi için email adresi ve şifre gereklidir
+- Email adresi geçerli formatta olmalıdır (örn: kullanici@example.com)
+- Şifre minimum 8 karakter uzunluğunda olmalıdır
+- Şifre en az bir büyük harf, bir küçük harf ve bir rakam içermelidir
+- Aynı email adresi ile birden fazla kayıt yapılamaz
+- Kayıt işlemi başarılı olduğunda kullanıcıya onay e-postası gönderilmelidir
+
+2.2. Kullanıcı Giriş İşlemi
+- Sistem, kayıtlı kullanıcıların giriş yapmasına izin vermelidir
+- Giriş için email adresi ve şifre gereklidir
+- Email adresi kayıtlı olmalıdır
+- Şifre doğru olmalıdır
+- Yanlış şifre girilirse kullanıcıya hata mesajı gösterilmelidir
+- 3 başarısız giriş denemesinden sonra hesap geçici olarak kilitlenmelidir
+
+2.3. Şifre Sıfırlama
+- Kullanıcı "Şifremi Unuttum" seçeneğini kullanabilmelidir
+- Şifre sıfırlama için email adresi gereklidir
+- Email adresi kayıtlı olmalıdır
+- Şifre sıfırlama bağlantısı e-posta ile gönderilmelidir
+- Bağlantı 24 saat geçerlidir
+
+2.4. Profil Yönetimi
+- Kullanıcı profil bilgilerini görüntüleyebilmelidir
+- Kullanıcı profil bilgilerini güncelleyebilmelidir (ad, soyad, telefon)
+- Email adresi değiştirilemez
+- Şifre değişikliği ayrı bir işlem olarak yapılmalıdır
+
+3. GÜVENLİK GEREKSİNİMLERİ
+
+3.1. Kimlik Doğrulama
+- Tüm hassas işlemler için kullanıcı girişi zorunludur
+- Session yönetimi güvenli olmalıdır
+- Otomatik logout: 30 dakika hareketsizlikten sonra
+
+3.2. Veri Koruması
+- Şifreler hash'lenerek saklanmalıdır
+- Kişisel veriler GDPR uyumlu olmalıdır
+
+4. PERFORMANS GEREKSİNİMLERİ
+
+4.1. Yanıt Süreleri
+- Sayfa yükleme süresi: maksimum 2 saniye
+- Giriş işlemi: maksimum 1 saniye
+- Kayıt işlemi: maksimum 3 saniye
+
+4.2. Kapasite
+- Sistem aynı anda 1000 kullanıcıyı desteklemelidir
+
+5. KULLANILABİLİRLİK GEREKSİNİMLERİ
+
+5.1. Arayüz
+- Tüm formlar açık ve anlaşılır olmalıdır
+- Hata mesajları kullanıcı dostu olmalıdır
+- Mobil uyumlu tasarım olmalıdır
+
+6. TEST SENARYOLARI
+
+6.1. Sınır Değer Testleri
+- Email: minimum/maksimum uzunluk, geçersiz formatlar
+- Şifre: minimum uzunluk, maksimum uzunluk, özel karakterler
+- Giriş denemesi: 3 başarısız deneme limiti
+
+6.2. Hata Senaryoları
+- Geçersiz email formatı
+- Zayıf şifre
+- Kayıtlı olmayan kullanıcı girişi
+- Yanlış şifre ile giriş
+- Süresi dolmuş şifre sıfırlama bağlantısı
+

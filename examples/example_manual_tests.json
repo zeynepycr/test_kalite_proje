@@ -1,0 +1,38 @@
+[
+  {
+    "id": "TC001",
+    "baslik": "Kullanıcı kayıt işlemi - Başarılı kayıt",
+    "on_kosul": "Sistem açık ve erişilebilir durumda olmalı",
+    "adimlar": "1. Ana sayfaya gidin\n2. Kayıt butonuna tıklayın\n3. Geçerli email adresi girin\n4. Geçerli şifre girin (min 8 karakter)\n5. Kayıt butonuna tıklayın",
+    "beklenen_sonuc": "Kullanıcı başarıyla kaydedilir ve giriş sayfasına yönlendirilir"
+  },
+  {
+    "id": "TC002",
+    "baslik": "Kullanıcı kayıt işlemi - Geçersiz email",
+    "on_kosul": "Sistem açık ve erişilebilir durumda olmalı",
+    "adimlar": "1. Ana sayfaya gidin\n2. Kayıt butonuna tıklayın\n3. Geçersiz email adresi girin (örn: test@)\n4. Geçerli şifre girin\n5. Kayıt butonuna tıklayın",
+    "beklenen_sonuc": "Email formatı hatası mesajı gösterilir ve kayıt işlemi gerçekleşmez"
+  },
+  {
+    "id": "TC003",
+    "baslik": "Kullanıcı giriş işlemi - Başarılı giriş",
+    "on_kosul": "Kullanıcı kayıtlı olmalı ve hesap aktif durumda olmalı",
+    "adimlar": "1. Giriş sayfasına gidin\n2. Kayıtlı email adresini girin\n3. Doğru şifreyi girin\n4. Giriş butonuna tıklayın",
+    "beklenen_sonuc": "Kullanıcı başarıyla giriş yapar ve ana sayfaya yönlendirilir"
+  },
+  {
+    "id": "TC004",
+    "baslik": "Kullanıcı giriş işlemi - Yanlış şifre",
+    "on_kosul": "Kullanıcı kayıtlı olmalı",
+    "adimlar": "1. Giriş sayfasına gidin\n2. Kayıtlı email adresini girin\n3. Yanlış şifreyi girin\n4. Giriş butonuna tıklayın",
+    "beklenen_sonuc": "Şifre hata mesajı gösterilir ve giriş işlemi gerçekleşmez"
+  },
+  {
+    "id": "TC005",
+    "baslik": "Şifre sıfırlama - Başarılı istek",
+    "on_kosul": "Kullanıcı kayıtlı olmalı",
+    "adimlar": "1. Giriş sayfasına gidin\n2. Şifremi Unuttum linkine tıklayın\n3. Kayıtlı email adresini girin\n4. Gönder butonuna tıklayın",
+    "beklenen_sonuc": "Şifre sıfırlama e-postası gönderilir ve başarı mesajı gösterilir"
+  }
+]
+

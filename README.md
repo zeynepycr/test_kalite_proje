@@ -1,8 +1,8 @@
-# 🤖 NLP ile Otomatik Test Senaryosu Üretimi
+# NLP ile Otomatik Test Senaryosu Üretimi
 
 Bu proje, yazılım gereksinim dokümanlarından otomatik olarak test senaryoları üreten bir NLP tabanlı sistemdir. Google Gemini AI modellerini kullanarak, gereksinim metinlerini analiz eder ve kapsamlı test senaryoları oluşturur.
 
-## 📋 İçindekiler
+## İçindekiler
 
 - [Özellikler](#özellikler)
 - [Kurulum](#kurulum)
@@ -12,17 +12,17 @@ Bu proje, yazılım gereksinim dokümanlarından otomatik olarak test senaryolar
 - [Test ve Değerlendirme](#test-ve-değerlendirme)
 - [Dokümantasyon](#dokümantasyon)
 
-## ✨ Özellikler
+## Özellikler
 
-- ✅ **Çoklu Format Desteği**: PDF, DOCX, DOC ve TXT dosyalarından metin çıkarma
-- ✅ **AI Destekli Test Üretimi**: Google Gemini modelleri ile otomatik test senaryosu oluşturma
-- ✅ **Performans Ölçümü**: Detaylı metrikler ve istatistikler
-- ✅ **Kalite Değerlendirmesi**: Üretilen test senaryolarının otomatik değerlendirmesi
-- ✅ **Karşılaştırma Analizi**: Manuel vs otomatik test üretimi karşılaştırması
-- ✅ **Görselleştirme**: Grafikler ve tablolar ile sonuç görselleştirme
-- ✅ **İndirme**: JSON formatında sonuç indirme
+-  **Çoklu Format Desteği**: PDF, DOCX, DOC ve TXT dosyalarından metin çıkarma
+-  **AI Destekli Test Üretimi**: Google Gemini modelleri ile otomatik test senaryosu oluşturma
+-  **Performans Ölçümü**: Detaylı metrikler ve istatistikler
+-  **Kalite Değerlendirmesi**: Üretilen test senaryolarının otomatik değerlendirmesi
+-  **Karşılaştırma Analizi**: Manuel vs otomatik test üretimi karşılaştırması
+-  **Görselleştirme**: Grafikler ve tablolar ile sonuç görselleştirme
+-  **İndirme**: JSON formatında sonuç indirme
 
-## 🚀 Kurulum
+## Kurulum
 
 ### Gereksinimler
 
@@ -56,7 +56,7 @@ streamlit run test_generate.py
 
 Tarayıcınızda `http://localhost:8501` adresinde uygulama açılacaktır.
 
-## 📖 Kullanım
+## Kullanım
 
 ### Temel Kullanım
 
@@ -69,12 +69,12 @@ Tarayıcınızda `http://localhost:8501` adresinde uygulama açılacaktır.
 
 ### Sekmeler
 
-- **🏠 Ana Sayfa**: Test senaryosu üretimi
-- **📊 Performans Metrikleri**: Detaylı performans analizleri
-- **⚖️ Karşılaştırma**: Manuel vs otomatik karşılaştırma
-- **📖 Dokümantasyon**: Sistem dokümantasyonu
+- **Ana Sayfa**: Test senaryosu üretimi
+- **Performans Metrikleri**: Detaylı performans analizleri
+- **Karşılaştırma**: Manuel vs otomatik karşılaştırma
+- **Dokümantasyon**: Sistem dokümantasyonu
 
-## 🏗️ Sistem Mimarisi
+## Sistem Mimarisi
 
 ### Ana Bileşenler
 
@@ -131,7 +131,7 @@ Sistem aşağıdaki metrikleri ölçer ve kaydeder:
 - İçerik bütünlüğü
 - Detay düzeyi
 
-## 🧪 Test ve Değerlendirme
+## Test ve Değerlendirme
 
 ### Test Senaryosu Formatı
 
@@ -201,31 +201,11 @@ Proje klasöründe örnek gereksinim dokümanları bulunmaktadır:
 - `SRSSample.doc`: Örnek SRS dokümanı
 - `final_report.pdf`: Örnek PDF dokümanı
 
-## 🤝 Katkıda Bulunma
-
-1. Fork edin
-2. Feature branch oluşturun (`git checkout -b feature/AmazingFeature`)
-3. Commit edin (`git commit -m 'Add some AmazingFeature'`)
-4. Push edin (`git push origin feature/AmazingFeature`)
-5. Pull Request açın
 
 ## 📄 Lisans
 
 Bu proje test amaçlı geliştirilmiştir.
 
-## 👥 Yazarlar
-
-- Proje Ekibi
-
-## 🙏 Teşekkürler
-
-- Google Gemini AI
-- Streamlit ekibi
-- Açık kaynak topluluğu
-
-## 📞 İletişim
-
-Sorularınız için issue açabilirsiniz.
 
 ---
 
